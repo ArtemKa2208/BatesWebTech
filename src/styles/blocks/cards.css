@@ -1,0 +1,24 @@
+.cards {
+    max-width: 1550px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.cards__title {
+    margin-top: 90px;
+    margin-bottom: 55px;
+    font-weight: 700;
+    font-size: 48px;
+    padding: 0 40px;
+}
+
+.cards__container {
+    padding: 0 40px;
+    margin: auto;
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    gap: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}

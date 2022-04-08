@@ -1,0 +1,59 @@
+.card {
+    width: 410px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    transition: transform .3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card__information {
+    background-color: #FA4D16;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.card__image {
+    height: 310px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.card__place {
+    display: flex;
+    align-items: center;
+}
+
+.card__icon {
+    width: 32px;
+}
+
+.card__personal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.card__name {
+    font-size: 30px;
+}
+
+.card__age {
+    font-size: 20px;
+}
+
+.card__location {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+/*.card__location::before {*/
+/*    content: url("../../images/location-marker.svg");*/
+/*}*/
