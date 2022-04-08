@@ -10,9 +10,9 @@
 
 .preview__title {
     font-weight: 700;
-    font-size: 72px;
+    font-size: 96px;
     /*line-height: 112px;*/
-    width: 480px;
+    width: 650px;
     color: white;
 }
 
@@ -42,6 +42,19 @@
     background-color: #fd5b27;
 }
 
+@media (max-height: 500px) {
+    .preview__container {
+        padding: 3% 40px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .preview__title {
+        font-size: 72px;
+        width: 480px;
+    }
+}
+
 @media (max-width: 1250px) {
    .preview {
        background-position: 50% 100%;
@@ -49,10 +62,6 @@
 }
 
 @media (max-width: 1000px) {
-    .preview__title {
-        font-size: 72px;
-        /*width: 600px;*/
-    }
     .preview__button {
         padding: 25px 85px;
         font-size: 35px;
