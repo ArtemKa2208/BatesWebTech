@@ -3,15 +3,12 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /*padding-top: 170px;*/
-    /*padding-bottom: 420px;*/
     height: 100%;
 }
 
 .preview__title {
     font-weight: 700;
     font-size: 96px;
-    /*line-height: 112px;*/
     width: 650px;
     color: white;
 }
@@ -74,7 +71,6 @@
         font-size: 48px;
         text-align: center;
         width: 315px;
-        /*width: 600px;*/
     }
     .preview__button {
         padding: 20px 80px;
