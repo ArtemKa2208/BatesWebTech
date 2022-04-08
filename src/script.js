@@ -48,7 +48,6 @@ const createCards = async () => {
         cardLocation.innerText = `${city} ${state}`;
         cardPlace.appendChild(cardIcon);
         cardPlace.appendChild(cardLocation);
-        console.log(pet)
     })
 
 }
