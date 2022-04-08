@@ -44,7 +44,7 @@ const createCards = async () => {
         cardAge.innerText = (ageInYears >= 2)? `${ageInYears} years` : `${ageInYears} year`;
         cardPersonalInfo.appendChild(cardName);
         cardPersonalInfo.appendChild(cardAge);
-        cardIcon.src = '/location-marker.0d00f2c3.svg';
+        cardIcon.src = './images/location-marker.svg';
         cardLocation.innerText = `${city} ${state}`;
         cardPlace.appendChild(cardIcon);
         cardPlace.appendChild(cardLocation);
