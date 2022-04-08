@@ -42,9 +42,9 @@
     background-color: #fd5b27;
 }
 
-@media (max-height: 500px) {
+@media (max-height: 700px) {
     .preview__container {
-        padding: 3% 40px;
+        padding: 4% 40px;
     }
 }
 
